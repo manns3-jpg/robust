@@ -7,7 +7,7 @@
     <title>Robust Investments Advisory Pvt. Ltd. | Physical to Digital Share Conversion</title>
     <meta name="description"
         content="Transform your physical demat pages into digital shares with Robust Investments Advisory. Expert guidance for seamless share dematerialization and conversion services.">
-    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="icon" type="image/png" href="assets/logo.png">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,8 @@
         rel="stylesheet">
 
     <!-- Styles -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -26,19 +27,19 @@
         <div class="container">
             <nav>
                 <a href="index.html" class="logo">
-                    <img src="logo.png" alt="Robust Investments Advisory">
+                    <img src="assets/logo.png" alt="Robust Investments Advisory">
                 </a>
 
                 <ul class="nav-links">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="html/about.html">About Us</a></li>
+                    <li><a href="html/services.html">Services</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
                 </ul>
 
                 <div class="nav-cta">
-                    <a href="tel:+919999999999" class="btn btn-outline">Call Us</a>
-                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    <a href="tel:+919825060495" class="btn btn-outline">Call Us</a>
+                    <a href="html/contact.html" class="btn btn-primary">Get Started</a>
                 </div>
 
                 <div class="menu-toggle">
@@ -51,39 +52,30 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
+                <div class="hero-text" data-aos="fade-right">
                     <h1>Transform Your <span>Physical Shares</span> Into Digital Assets</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p style="text-align: justify;">We are delighted to introduce Robust Investments Advisory Private
+                        Limited (RIAPL), your
+                        trusted partner for bespoke consultancy and advisory services on old and physical shares.
+                        Backed by a strong in-house team of Company Secretaries, Chartered Accountants, Advocates,
+                        and MBAs, we bring decades of industry expertise to deliver seamless, transparent solutions
+                        tailored to your needs. Founded by, <b style="color: var(--accent-gold);">Mr. Chintan Joshi</b>
+                        and <b style="color: var(--accent-gold);">Mr. Parichay Shah</b>, each with over 20
+                        years of experience in finance and capital markets RIAPL was born from a vision to provide
+                        client-centric solutions with unwavering transparency and satisfaction.</p>
 
                     <div class="hero-buttons">
-                        <a href="contact.html" class="btn btn-primary btn-large">
+                        <a href="html/contact.html" class="btn btn-primary btn-large">
                             Start Conversion
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2">
                                 <path d="M5 12h14M12 5l7 7-7 7" />
                             </svg>
                         </a>
-                        <a href="services.html" class="btn btn-outline btn-large">Learn How It Works</a>
-                    </div>
-
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <h3>15+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>50k+</h3>
-                            <p>Shares Converted</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>99%</h3>
-                            <p>Success Rate</p>
-                        </div>
+                        <a href="html/services.html" class="btn btn-outline btn-large">How It Works</a>
                     </div>
                 </div>
 
@@ -96,8 +88,8 @@
                                     <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
                                 </svg>
                             </div>
-                            <h4>Physical Certificates</h4>
-                            <p>Secure document handling</p>
+                            <h4>Industry Expertise</h4>
+                            <p>Deep knowledge delivering unmatched depth and efficiency.</p>
                         </div>
 
                         <div class="floating-card">
@@ -106,8 +98,8 @@
                                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                                 </svg>
                             </div>
-                            <h4>100% Secure</h4>
-                            <p>SEBI compliant process</p>
+                            <h4>Specialized Solutions</h4>
+                            <p>End-to-end services that save you time and reduce risks.</p>
                         </div>
 
                         <div class="floating-card">
@@ -117,10 +109,30 @@
                                     <path d="M22 4L12 14.01l-3-3" />
                                 </svg>
                             </div>
-                            <h4>Digital Shares</h4>
-                            <p>Ready for trading</p>
+                            <h4>Market Leadership</h4>
+                            <p>Maximizing value for physical share management.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar" data-aos="fade-up">
+        <div class="container">
+            <div class="hero-stats">
+                <div class="stat-item reveal">
+                    <h3>15+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>50k+</h3>
+                    <p>Shares Converted</p>
+                </div>
+                <div class="stat-item reveal">
+                    <h3>99%</h3>
+                    <p>Success Rate</p>
                 </div>
             </div>
         </div>
@@ -129,39 +141,26 @@
     <!-- Services Section (Brief) -->
     <section class="services" id="services">
         <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Our Services</span>
-                <h2>Comprehensive Demat Solutions</h2>
-                <p>End-to-end services for all your share dematerialization and investment needs</p>
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Expertise</span>
+                <h2>Comprehensive Services</h2>
+                <p>We provide end-to-end solutions for all your physical share related needs.</p>
             </div>
 
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24">
                             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
                             <path d="M14 2v6h6M12 18v-6M9 15l3 3 3-3" />
                         </svg>
                     </div>
-                    <h3>Physical to Demat Conversion</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.</p>
-                </div>
-
-                <div class="service-card">
-                    <div class="service-icon">
-                        <svg viewBox="0 0 24 24">
-                            <path
-                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
-                            <path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12" />
-                        </svg>
-                    </div>
                     <h3>IEPF Claim Recovery</h3>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat.</p>
+                    <p>Claiming back shares and bonds from the Investor Education and Protection Fund (IEPF) with expert
+                        guidance.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-icon">
                         <svg viewBox="0 0 24 24">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
@@ -170,13 +169,63 @@
                         </svg>
                     </div>
                     <h3>Transmission of Shares</h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur.</p>
+                    <p>Seamless legal transfer of shares to rightful heirs in case of death or legal succession.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                        </svg>
+                    </div>
+                    <h3>Name Corrections</h3>
+                    <p>Facilitating corrections and deletions of names in share certificates for accurate records.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                        </svg>
+                    </div>
+                    <h3>Duplicate Certificates</h3>
+                    <p>Professional assistance in the issuance of duplicate share certificates in case of loss or
+                        damage.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <h3>Demat Conversion</h3>
+                    <p>Hassle-free conversion of physical share certificates into secure electronic (dematerialized)
+                        form.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="10" />
+                            <line x1="12" y1="8" x2="12" y2="12" />
+                            <line x1="12" y1="16" x2="12.01" y2="16" />
+                        </svg>
+                    </div>
+                    <h3>Specialized Services</h3>
+                    <p>Other custom advisory and consultancy services tailored for all your physical share related
+                        needs.</p>
                 </div>
             </div>
 
-            <div style="text-align: center; margin-top: 40px;">
-                <a href="services.html" class="btn btn-outline">View All Services</a>
+            <div style="text-align: center; margin-top: 40px;" data-aos="fade-up">
+                <a href="html/services.html" class="btn btn-outline">View All Services</a>
             </div>
         </div>
     </section>
@@ -184,66 +233,94 @@
     <!-- Why Choose Us -->
     <section class="why-us" id="why-us">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" data-aos="fade-up">
                 <span class="section-tag">Why Choose Us</span>
-                <h2>Your Trusted Partner</h2>
+                <h2>WHY CHOOSE RIAPL?</h2>
                 <p>We bring expertise, trust, and seamless service to every client</p>
             </div>
 
             <div class="features-grid">
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="100">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            <path
+                                d="M22 19V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2zM6 13l3-3 4 4 3-3 4 4" />
                         </svg>
                     </div>
                     <div class="feature-content">
-                        <h3>SEBI Registered</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.</p>
+                        <h3>Deep Industry Knowledge</h3>
+                        <p>With over two decades of exposure to finance and capital markets, our team understands the
+                            nuances of physical share management, regulatory frameworks, and market dynamics.</p>
                     </div>
                 </div>
 
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <svg viewBox="0 0 24 24">
-                            <circle cx="12" cy="12" r="10" />
-                            <path d="M12 6v6l4 2" />
-                        </svg>
-                    </div>
-                    <div class="feature-content">
-                        <h3>Fast Processing</h3>
-                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.</p>
-                    </div>
-                </div>
-
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="200">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                             <circle cx="9" cy="7" r="4" />
-                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+                            <circle cx="16" cy="7" r="4" />
                         </svg>
                     </div>
                     <div class="feature-content">
-                        <h3>Expert Team</h3>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur.</p>
+                        <h3>Multidisciplinary Team</h3>
+                        <p>Our in-house experts—CS, CAs, Advocates, and MBAs—work collaboratively at every case level,
+                            minimizing delays and ensuring comprehensive legal and financial solutions.</p>
                     </div>
                 </div>
 
-                <div class="feature-card">
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="300">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-                            <path d="M22 4L12 14.01l-3-3" />
+                            <path
+                                d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
                         </svg>
                     </div>
                     <div class="feature-content">
-                        <h3>End-to-End Support</h3>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum.</p>
+                        <h3>Technology-Driven</h3>
+                        <p>We leverage cutting-edge technology to maintain meticulous records and provide real-time
+                            updates while ensuring the highest standards of data security.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Client-Centric Approach</h3>
+                        <p>At RIAPL, we prioritize transparency and integrity. Every client receives customized
+                            solutions tailored to their unique requirements and long-term trust.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>End-to-End Service</h3>
+                        <p>From initial consultation to final resolution, we handle every aspect of your physical
+                            share-related needs, letting you focus on your core activities.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card" data-aos="fade-right" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Proven Track Record</h3>
+                        <p>Our commitment to excellence has earned us the trust of numerous clients, successfully
+                            resolving complex cases involving IEPF claims and dematerialization.</p>
                     </div>
                 </div>
             </div>
@@ -253,14 +330,14 @@
     <!-- Testimonials -->
     <section class="testimonials" id="testimonials">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header" data-aos="fade-up">
                 <span class="section-tag">Testimonials</span>
                 <h2>What Our Clients Say</h2>
                 <p>Trusted by thousands of investors across India</p>
             </div>
 
             <div class="testimonials-grid">
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
                     <div class="stars">
                         <svg viewBox="0 0 24 24">
                             <polygon
@@ -294,7 +371,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="stars">
                         <svg viewBox="0 0 24 24">
                             <polygon
@@ -328,7 +405,7 @@
                     </div>
                 </div>
 
-                <div class="testimonial-card">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="stars">
                         <svg viewBox="0 0 24 24">
                             <polygon
@@ -367,7 +444,7 @@
 
     <!-- CTA Section -->
     <section class="cta">
-        <div class="container">
+        <div class="container" data-aos="zoom-in">
             <div class="cta-box">
                 <div class="cta-content">
                     <h2>Ready to Convert Your Physical Shares?</h2>
@@ -392,7 +469,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-brand">
-                    <img src="logo.png" alt="Robust Investments Advisory">
+                    <img src="assets/logo.png" alt="Robust Investments Advisory">
                     <p>Your trusted partner for physical to digital share conversion. We help investors unlock the value
                         of their legacy investments with expertise and integrity.</p>
                     <div class="footer-social">
@@ -427,22 +504,22 @@
                 <div class="footer-column">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="services.html">Our Services</a></li>
-                        <li><a href="services.html#process">How It Works</a></li>
-                        <li><a href="about.html">Why Choose Us</a></li>
+                        <li><a href="html/services.html">Our Services</a></li>
+                        <li><a href="html/services.html#process">How It Works</a></li>
+                        <li><a href="html/about.html">Why Choose Us</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="html/about.html">About Us</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-column">
                     <h4>Services</h4>
                     <ul>
-                        <li><a href="services.html">Physical to Demat</a></li>
-                        <li><a href="services.html">IEPF Claim Recovery</a></li>
-                        <li><a href="services.html">Share Transmission</a></li>
-                        <li><a href="services.html">Duplicate Certificates</a></li>
-                        <li><a href="services.html">Investment Advisory</a></li>
+                        <li><a href="html/services.html">Physical to Demat</a></li>
+                        <li><a href="html/services.html">IEPF Claim Recovery</a></li>
+                        <li><a href="html/services.html">Share Transmission</a></li>
+                        <li><a href="html/services.html">Duplicate Certificates</a></li>
+                        <li><a href="html/services.html">Investment Advisory</a></li>
                     </ul>
                 </div>
 
@@ -453,21 +530,23 @@
                             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                             <circle cx="12" cy="10" r="3" />
                         </svg>
-                        <span>Mumbai, Maharashtra, India</span>
+                        <span><a href="https://g.co/kgs/TwmJxs" target="_blank"
+                                style="color: inherit; text-decoration: none; transition: color 0.3s;">310 Ashwamegh
+                                Elegance, Ambawadi, Ahmedabad 380006</a></span>
                     </div>
                     <div class="contact-item">
                         <svg viewBox="0 0 24 24">
                             <path
                                 d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
-                        <span>+91 99999 99999</span>
+                        <span>+91 98250 60495</span>
                     </div>
                     <div class="contact-item">
                         <svg viewBox="0 0 24 24">
                             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                             <polyline points="22,6 12,13 2,6" />
                         </svg>
-                        <span>info@robustinvestments.com</span>
+                        <span>info@riapl.com</span>
                     </div>
                 </div>
             </div>
@@ -479,7 +558,8 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -27,7 +27,7 @@ faqQuestions.forEach(question => {
     question.addEventListener('click', () => {
         const item = question.parentNode;
         const answer = question.nextElementSibling;
-        
+
         // Close other items
         const currentActive = document.querySelector('.faq-item.active');
         if (currentActive && currentActive !== item) {
@@ -37,7 +37,7 @@ faqQuestions.forEach(question => {
 
         // Toggle current item
         item.classList.toggle('active');
-        
+
         if (item.classList.contains('active')) {
             answer.style.maxHeight = answer.scrollHeight + 'px';
         } else {
@@ -46,3 +46,12 @@ faqQuestions.forEach(question => {
     });
 });
 
+// Initialize AOS (Animate On Scroll)
+document.addEventListener('DOMContentLoaded', () => {
+    AOS.init({
+        duration: 800,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 50,
+    });
+});
